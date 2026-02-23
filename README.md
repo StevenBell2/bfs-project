@@ -231,3 +231,6 @@ F - D - A - B
 - Graph Theory: Diestel, R. (2017). Graph Theory. Springer.
 - BFS Algorithm: Cormen et al. Introduction to Algorithms (CLRS)
 - Vertex Connectivity: Graph connectivity theory and applications
+- Python Software Foundation. (n.d.). itertools — Functions creating iterators for efficient looping. Python 3 documentation. https://docs.python.org/3/library/itertools.html
+- Python Software Foundation. (n.d.). collections — Container datatypes. Python 3 documentation. https://docs.python.org/3/library/collections.html
+- LibreTexts. (n.d.). Cutset. In Combinatorics and Graph Theory. https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Combinatorics_and_Graph_Theory_(Guichard)/05%3A_Graph_Theory/5.07%3A_Connectivity
