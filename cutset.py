@@ -41,7 +41,28 @@ def k_cutset(graph, k):
 
     return False
 
+
+def min_cutsets(graph):
+    nodes = list(graph.adj.keys())
+
+    for k in range(1, len(nodes)):
+        min_cutsets = []
+
+        for combo in combinations(nodes, k):
+            removed = set(combo)
+
+            if not is_connected_after_removal(graph, removed):
+                min_cutsets.append(combo)
+
+        if min_cutsets:
+            return k, min_cutsets
+
+    return None, []
+
 # test if k=3 cutset exists
 print("\nDoes a 3-cutset exist?")
 result = k_cutset(graph, 3)
 print("Result:", result)
+
+#find min cutsets of the graph
+print('Min Cutsets: ', min_cutsets(graph))
